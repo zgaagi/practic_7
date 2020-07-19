@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    width: 100%;
+}
+
+.header {
+    width: 50%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.nav {
+    margin-bottom: 18.6rem;
+}
+
+.nav__list {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #989696;
+    padding: 0;
+}
+
+.nav__item {
+    font-size: 0.81rem;
+    width: 100%;
+    padding: 1.4rem 1.4rem;
+    text-align: center;
+}
+
+.nav__item_img {
+    background-image: url(images/logo.jpeg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 65%;
+    padding: 0;
+}
+
+.section__head {
+    width: 100%;
+    border: 1px solid red;
+    text-align: center;
+    margin-bottom: 283px;
+}
+
+.head__title {
+    font-size: 2.75rem;
+    color: #1D1E1F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.head__text {
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+    color: #898888;
+    margin-bottom: 42px;
+}
+
+.head__btn {
+    width: 189px;
+    height: 58px;
+    background-color: transparent;
+    border: 1px solid black;
+    color:black;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    outline: none;
+    padding: 0;
+}
+
+.head__btn:hover {
+    transition-duration: 0.2s;
+    color: white;
+    background-color: black;
+    opacity: 0.4;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.list__circle {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 92px;
+}
+
+.item__circle {
+    width: 11px;
+    height: 11px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color:#D0D0D0;
+}
+
+.item__circle-margin {
+    margin: 11px 0;
+    opacity: 0.6588235294117647;
+}
+
+.item__circle-opacity {
+    opacity: 0.32941176470588235;
+}
+
+.body {
+    width: 100%;
+    background-color: #1D1D1D;
+    border: 1px solid white;
+}
+
+.body__section {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.body__section_left {
+    width: 50%;
+    border-right: 3px solid white;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.body__section-years {
+    width: 50%;
+    padding-top: 150px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.body__section__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #FEFEFE;
+    text-align: right;
+    margin-bottom: 23px;
+}
+
+.body__section__text {
+    font-family: 'Montserrat', sans-serif;
+    color: #B7B7B7;
+    padding-left: 75px;
+}
+
+.body__section__text-mr-b {
+    margin-bottom: 255px;
+}
+
+.body__section_right {
+    width: 50%;
+    border-left: 3px solid white;
+}
+
+.body__section__title-right {
+    position: relative;
+    text-align: left;
+    padding-left: 80px;
+    padding-top: 121px;
+}
+
+.body__section__title_2013::before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-color: #1D1D1D;
+    right: -1.5rem;
+    top: 34.7rem;
+}
+
+.body__section__title_left_2011::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-color: #1D1D1D;
+    right: -1rem;
+    top: 10rem;
+}
+
+.body__section__title-right-2012::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-color: #1D1D1D;
+    left: -1rem;
+    top: 8.4rem;
+}
+
+.body__section__title-right_2014::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-color: #1D1D1D;
+    left: -1rem;
+    top: 8.5rem;
+}
+
+.body__section__text-m-b {
+    padding-bottom: 410px;
+}
+
+.section_bg {
+    width: 100%;
+    height: 15rem;
+}
+
+.section_img {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
