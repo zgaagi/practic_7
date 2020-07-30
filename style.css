@@ -373,9 +373,9 @@ border-bottom: 1px solid #989696;
 .wrapper_black::before {
     content: "";
     position: absolute;
-    border-bottom: 20vh solid #1D1D1D; 
+    border-bottom: 150px solid #1D1D1D; 
     border-left: 100vw solid transparent;	
-    top: -194px;
+    top: -150px;
     left: -17px;
 }
 
@@ -390,7 +390,7 @@ border-bottom: 1px solid #989696;
     background-image: url(images/post-bg.png);
     background-repeat: no-repeat;
     background-position: bottom center;
-    background-size: 100%;
+    background-size: 50%;
 }
 
 .services-head {
@@ -497,9 +497,9 @@ border-bottom: 1px solid #989696;
 .contact__header::before {
     content: "";
     position: absolute;
-    border-bottom: 20vh solid white; 
+    border-bottom: 150px solid white; 
     border-left: 100vw solid transparent;	
-    top: -289px;
+    top: -245px;
     left: -17px;
 }
 
