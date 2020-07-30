@@ -375,8 +375,8 @@ border-bottom: 1px solid #989696;
     position: absolute;
     border-bottom: 150px solid #1D1D1D; 
     border-left: 100vw solid transparent;	
-    top: -150px;
-    left: -17px;
+    top: -149px;
+    left: 0;
 }
 
 .services {
@@ -499,8 +499,8 @@ border-bottom: 1px solid #989696;
     position: absolute;
     border-bottom: 150px solid white; 
     border-left: 100vw solid transparent;	
-    top: -245px;
-    left: -17px;
+    top: -244px;
+    left: 0;
 }
 
 .contact__title {
