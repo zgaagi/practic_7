@@ -39,6 +39,10 @@
     transition-duration: 1s;
 }
 
+ul {
+    width: 100%;
+}
+
 ul > li > a {
     text-decoration: none;
     color: #989696;
@@ -362,8 +366,8 @@ border-bottom: 1px solid #989696;
 
 .wrapper_black {
     width: 100%;
-    background-color: #1D1D1D;
     position: relative;
+    background-color: #1D1D1D;
 }
 
 .wrapper_black::before {
@@ -371,7 +375,7 @@ border-bottom: 1px solid #989696;
     position: absolute;
     border-bottom: 20vh solid #1D1D1D; 
     border-left: 100vw solid transparent;	
-    top: -177px;
+    top: -194px;
     left: -17px;
 }
 
@@ -379,12 +383,6 @@ border-bottom: 1px solid #989696;
     width: 60%;
     margin: 0 auto;
     padding-top: 10rem;
-    background-image: url(images/post-bg.png);
-    /* opacity: 0.43137254901960786; */
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-clip: content-box;
-    background-size: 80%;
 }
 
 .services-head {
@@ -432,7 +430,8 @@ border-bottom: 1px solid #989696;
     display: flex;
     justify-content: space-between;
     text-align: center;
-    margin-bottom: 476px;
+    z-index: inherit;
+    /* margin-bottom: 476px; */
 }
 
 .block {
@@ -452,9 +451,17 @@ border-bottom: 1px solid #989696;
 }
 
 .services__btn {
+    width: 50%;
+    margin: 0 auto;
     text-align: center;
     padding-bottom: 295px;
+    border: 1px solid green;
+}
 
+.bg-img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
 }
 
 .btn {
@@ -490,11 +497,11 @@ border-bottom: 1px solid #989696;
     position: absolute;
     border-bottom: 20vh solid white; 
     border-left: 100vw solid transparent;	
-    top: -271px;
+    top: -289px;
     left: -17px;
 }
 
-.conact__title {
+.contact__title {
     color: #1D1E1F;
     font-size: 2.125rem;
     font-weight: 400;
@@ -526,7 +533,7 @@ border-bottom: 1px solid #989696;
 }
 
 .footer-form {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -537,6 +544,12 @@ border-bottom: 1px solid #989696;
     color: #898888;
     padding: 20px;
     margin-bottom: 20px;
+}
+
+textarea {
+    height: 30vh;
+    resize: none;
+    text-align: left;
 }
 
 .footer-form > input, textarea:focus {
@@ -576,7 +589,7 @@ font-weight: 500;
 }
 
 @media all and (max-width: 1525px) {
-    .nav__list > li {
+    .nav__item {
         padding: 1.4rem 0.6rem;
     }
 
@@ -591,7 +604,7 @@ font-weight: 500;
 }
 
 @media all and (max-width: 1220px) {
-    .nav__list > li {
+    .nav__item {
         padding: 1.4rem 0;
     }
 
@@ -620,7 +633,7 @@ font-weight: 500;
 }
 
 @media all and (max-width: 1000px) {
-    .nav__list > li {
+    .nav__item {
         padding: 1.4rem 0;
         font-size: 0.7rem;
     }
@@ -729,7 +742,7 @@ font-weight: 500;
     }
 
 
-    .nav__list > li {
+    .nav__item {
         font-size: 1rem;
     }
 
