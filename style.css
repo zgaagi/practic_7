@@ -228,7 +228,7 @@ border-bottom: 1px solid #989696;
     top: 10rem;
 }
 
-.body__section__title-right-2012::after {
+.body__section__title-right_2012::after {
     content: "";
     position: absolute;
     width: 15px;
@@ -382,7 +382,15 @@ border-bottom: 1px solid #989696;
 .services {
     width: 60%;
     margin: 0 auto;
+    background-image: linear-gradient(#1D1D1D,black);
     padding-top: 10rem;
+}
+
+.gradient {
+    background-image: url(images/post-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100%;
 }
 
 .services-head {
@@ -431,7 +439,7 @@ border-bottom: 1px solid #989696;
     justify-content: space-between;
     text-align: center;
     z-index: inherit;
-    /* margin-bottom: 476px; */
+    margin-bottom: 476px;
 }
 
 .block {
@@ -455,14 +463,8 @@ border-bottom: 1px solid #989696;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 295px;
-    border: 1px solid green;
 }
 
-.bg-img {
-    width: 100%;
-    height: 100%;
-    border: 1px solid red;
-}
 
 .btn {
     width: 218px;
